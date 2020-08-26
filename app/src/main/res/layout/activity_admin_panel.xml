@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".adminmodule.AdminPanel">
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="260dp"
+        android:layout_height="88dp"
+        android:text="Create Worker"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="Create"
+        android:background="@drawable/button1"
+        app:layout_constraintBottom_toTopOf="@+id/list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:text="Update And Delete Worker"
+        android:onClick="list"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="260dp"
+        android:layout_height="88dp"
+        android:text="Check Emergency"
+        android:background="@drawable/button1"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="checkemer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:text="Send Emergency Tips!"
+        android:onClick="sendtips"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

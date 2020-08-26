@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1049763421427",
+    "firebase_url": "https://rescue-1122-905cb.firebaseio.com",
+    "project_id": "rescue-1122-905cb",
+    "storage_bucket": "rescue-1122-905cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049763421427:android:8208ef3c10506e35cc6b86",
+        "android_client_info": {
+          "package_name": "com.example.rescue1122"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049763421427-q2ciokb1skugdg9k9093ngeg1llp2b83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBwu2W2ie4jjU4sVCpx4naRXdZ6lp-Fdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049763421427-q2ciokb1skugdg9k9093ngeg1llp2b83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
